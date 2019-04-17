@@ -1,6 +1,6 @@
 # Project 1 Generative Text
 
-Your Name, yourcontact@ucsd.edu
+Kin Ming Loh, A14182456, kmloh@ucsd.edu
 
 ## Abstract
 
