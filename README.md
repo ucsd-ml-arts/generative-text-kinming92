@@ -34,6 +34,5 @@ Hazards alerts contains flood warning, wind advisory and storm hazards. Alert me
   - run python get_alert_report.py or python get_alert_description.py on the terminal
 
 ## Reference
-
-Project requirements: [doc](https://docs.google.com/document/d/13ueceIyuUc4ATD7B-SFZK641MycFZ57eZ9n1lQ3Y1CM/edit?usp=sharing)
-[National Weather Service Web API](https://www.weather.gov/documentation/services-web-api)
+- Project requirements: [doc](https://docs.google.com/document/d/13ueceIyuUc4ATD7B-SFZK641MycFZ57eZ9n1lQ3Y1CM/edit?usp=sharing)
+- [National Weather Service Web API](https://www.weather.gov/documentation/services-web-api)
