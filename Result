@@ -1,0 +1,157 @@
+Result
+
+Sample result 1 
+Temperature 0.5 - trained using alert_description.txt
+-----------------------------------------------------------------------
+Alert:
+The National Weather Service in Jackson has issued a
+
+* Severe Thunderstorm Warning for...
+Northwestern Connecticutal County in central North Carolina...
+
+* Until 315 PM EDT.
+
+* At 505 PM EDT, a severe thunderstorm was located over Dougher water,
+Shelbina, Rouge County in Upstatement will be issued tomorrow morning.
+Alert:
+Big Sioux River near Jefferson
+
+...The Flood Warning continues for the following rivers in
+Louisiana...
+
+Calcasieu River Near Oakdale
+Calcasieu River Near Oberlin
+Calcasieu River At Old Town Bay
+
+...The Flood Warning continues for
+The West Fork Des Moines River Near Windicated.
+* Until further notice.
+* At  7:00 PM Friday the stage was 27.1 feet and slowly falling.
+* Flood stage is 15.0 feet.
+* Minor flooding is occurring and Minor flooding is forecast.
+* Flood stage is 21.0 feet.
+* Forecast...The river will continue rising to near 11.5 feet by
+Friday evening. Additional rises may be possible thereafter.
+* Impact...at these conditions to small craft.
+Inexperienced 
+-----------------------------------------------------------------------------------
+
+Note:
+- There are some interesting points in this generated text
+- This two alert combine many different places into one messages with the theme of thunderstorm and flood warning
+- Somehow the model generates non existing places like "Northwestern Connecticutal County in central North Carolina...", "Dougher water,Shelbina, Rouge County" in Missouri, "The West Fork Des Moines River Near Windicated"
+- But they all fit in the right places of the text
+- The timeline matches as it starts from 315pm , then 505pm based on the first alert.
+____________________________________________________________________________________
+
+Sample result 2 
+Temperature 0.5 - trained using alert_description.txt
+-----------------------------------------------------------------------------
+Alert:
+The National Weather Service in Jackson has issued a Small
+Craft Advisory, which is in effect from noon to 8 PM EDT Saturday.
+
+* Plade sitage is 18.0 feet.
+* Minor flooding is occurring and Minor flooding is forecast.
+* Flood stage is 24.0 feet.
+* Forecast...The river will continue rising to near 21.1 feet by Saturday evening.
+* Impact, At  11.0 feet, Water is flooded roads. Most flood
+deaths occur in vehicles.
+Alert:
+The National Weather Service in Jacksonville has issued a
+
+* Severe Thunderstorm Warning for...
+Northwestern Conroe County in east central Wisconsin...
+Wanceton County in southeastern Texas...
+
+* Until further notice.
+* At  7:00 PM Friday the stage was 17.1 feet.
+* Flood stage is 16.0 feet.
+* Moderate flooding is occurring and is forecast to continue.
+* Forecast...Rise above flood stage by Monday afternoon and
+continue to rise to near 11.5 feet by Sunday April 21
+then begin falling.
+* At stages near 18.0 feet...Wide parks or forecasts change.
+
+Safety message:  Never dri
+-------------------------------------------------------------------------------------
+Note
+- Once again we can see that it can group different region together.
+- For example, "Northwestern Conroe County in east central Wisconsin" and "Wanceton County in southeastern Texas"
+_____________________________________________________________________________________
+
+Sample result 3 
+Temperature 1 - trained using alert_description.txt
+-------------------------------------------------------------------------------------
+Alert:
+The National Weather Service in Jackson has issued a vessel in gale
+conditions requires are unsid with a drayd deadly.
+Small Riperdaware levels will remain near Street when and stay
+afternoon and then conditions can be obtained.  This is nexrivers in Oregrerned.
+Instruction:
+Inexperienced mariners...especially those operating smaule gusting over
+coldoches Counties
+
+
+River forecasts are based on current continues for the following rivers in
+Southeast Highlands... Longtown...  issuct.
+Alert:
+Illinois River near Halaid affecting Fraitin...isuariesseen Counties
+* Abercrombie...on the SWall Craft Advisory, which is in effect from midnight tonight Pust to continue.
+* until further notice.
+* At 07AM Friday the stage was 12.30 feet.
+* Flood stage is 26.00 feet.
+* Flood stage is 16.50 feet.
+* Forecast...The river will remain a conditions came ground if the
+reconditions to crest indicated.
+
+IMPACT...WHALR CRAFT ADVISORY, ERTIN,,
+EUNCLINE TOWN ARD NAWBISST        HUNDS,
+SM, FiLLESTLIA,
+MANHER, 
+-------------------------------------------------------------------------------------------
+Note
+- This generated text still can maintain some of the structure of the original alert message
+- However, some sentences seem to be off and difficult to undestand.
+_________________________________________________________________________________________________
+
+Sample result 4 
+Temperature 1.5 - trained using alert_description.txt
+------------------------------------------------------------------------------------------------
+Alert:
+The Severe Thunderstorm
+and Smith tonight from 615 PM EDT,
+hce Counta todayao roofs, eacianafopPARED, DAIRVILAZK, OS ZWILLE, FLOOWKBURG. NTalection Stames thraduring.
+Instruction:
+HAZACT...Wallect:IR9APAY 3130 AM Weather Advantct,
+Corton, Rockin, Wyor amb, colstrurd
+James stage of 35.64hest floor of a
+building.
+Alert:
+Therouscask winds and heavy raiver in Jenn:DVIALES POINAY
+*
+RECAYDEA
+SACES tepi bylncee can at
+1261 roat:
+weaneng situations...or untl
+along the Rivers will be dangely from Sunday motto toloor flooding.
+Plsgp. Exnstrive for gast clofordwkson, shortl...orov
+* Impact:  At 23.3 feet of mi,
+fellyvove following
+
+.The followa Acso, drests fire, WIrg stremt daricidanr.
+Ice.
+* At  3:25 onto direction Forested
+lig Stac 1saches
+Missispippi Baforect Nathern Wilmbinel cambure wite t
+continue.
+
+For gray upstmulles Sabintural vilositio.r:
+Untop.
+If to around 83 ft and
+Fordedorpsion mifected. Abssso of hments
+possible upprobayode, sec/pasturile, especially those
+operating, Dos issued
+------------------------------------------------------------------------------------------
+Note
+- As we can see when temperature gets to 1.5, the generated text does not have any meaning.
